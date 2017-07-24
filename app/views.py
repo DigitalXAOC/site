@@ -4,4 +4,5 @@ from app import app
 @app.route('/')
 @app.route('/index')
 def index():
-    return render_template("index.html", user='Александр')
+    return render_template("index.html", user='Александр',
+    	title='GM-TOKEN')
