@@ -2,7 +2,7 @@
 {% block title %}{{title}}{% endblock %}
 {% block content %}
 <div class="container">
-    <form class="form-signin">
+    <form method=post class="form-signin">
         <h2 class="form-signin-heading">Please sign in</h2>
         {{form.hidden_tag()}}
         {{form.email.label(for="inputEmail", class="sr-only")}}
